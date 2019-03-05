@@ -1,0 +1,15 @@
+{
+  "name": "kidkang/test",
+  "description": "kidkang first composer",
+  "license": "1.0",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flower\\Rose\\": "src/Flower/Rose",
+      "Flower\\Lily\\": "src/Flower/Lily"
+    }
+  }
+}
